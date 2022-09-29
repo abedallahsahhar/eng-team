@@ -1,0 +1,162 @@
+
+
+@font-face {
+    font-family: Mohammad-Head;
+    src:  url('../../app-assets/fonts/Mohammad-Head.ttf');
+
+}
+
+p , .span ,td , lable ,div{
+    font-weight: bold;
+    /*font-family: 'Mohammad-Head' !important;*/
+}
+@media print{
+    size:A4;
+    html , body{
+        height: 210mm;
+        width: 290mm;
+        margin: 0.6cm  0.5cm;
+
+    }
+    #imgdiv{
+        margin-top: -0.8rem;
+    }
+    .content-report{
+        min-height: 85vh
+    }
+    .footer{
+         display: flex ; justify-content: space-between;
+    }
+    @page{
+        margin: 0.6cm  0.5cm;
+        size: A4;
+
+        height: 210mm;
+        width: 290mm;
+
+
+
+    }
+    * {-webkit-print-color-adjust:exact;}
+
+}
+
+table {
+
+    border-collapse: collapse;
+}
+#tabbody{
+    font-weight: bold;
+}
+
+
+
+th {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align:  center;
+
+    font-size: 16px;
+    padding: 3px;
+}
+
+td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align:  center;
+vertical-align: center !important;
+align-items: center !important;
+    font-size: 14px;
+    padding: 7px 3px 5px 3px;
+}
+
+td-borderb-b-none {
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-collapse: collapse;
+    text-align:  center;
+
+    font-size: 14px;
+    padding: 5px 3px;
+}
+
+.tr {
+    font-family: 'Mohammad-Head';
+}
+
+.center{
+    text-align: center;
+}
+.bold{font-weight: bold}
+
+.span{  font-family: 'Mohammad-Head';font-size: 20px;padding-right: 25px}
+.border-l-none{
+    border-left: none !important;
+}
+.border-r-none{
+
+    border-right: none !important;
+
+}
+.border-b-none{
+    border-bottom: none !important;
+}
+.border-none{
+    border: none !important;
+
+}
+
+.font-12{
+   font-size: 12px !important;
+}
+.font-13{
+   font-size: 13px !important;
+}
+.font-14{
+   font-size: 14px !important;
+}
+.font-15{
+   font-size: 15px !important;
+}
+.font-16{
+   font-size: 16px !important;
+}
+.font-17{
+   font-size: 17px !important;
+}
+.font-18{
+   font-size: 18px !important;
+}
+
+.font-22{
+   font-size: 22px !important;
+}
+.p-0{
+    padding: 0px !important;
+}
+.px-2{
+    padding: 0rem  0.5rem !important;
+}
+.my-1{
+    margin: 0.75rem 0px !important;
+}
+.my-2{
+    margin: 1.5rem 0px;
+}
+
+.h-5{
+    height: 3rem;
+}
+.text-right{
+    text-align: right !important;
+}
+.bg-thad-title{
+    background-color: #dedede;
+}
+.bg-thad-tr-title{
+    background-color: #f0f0f0;
+}
+
+.footer{
+ display: flex ; justify-content: space-between;
+}
